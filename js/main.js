@@ -1,5 +1,5 @@
 var $input = $('#todo-input');
-var $list = $(".list");
+var $list = $('.list');
 
 $('form').on('submit', function (e) {
   var $li = $('<li>');
